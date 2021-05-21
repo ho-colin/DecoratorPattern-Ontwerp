@@ -5,8 +5,6 @@ using System.Text;
 namespace DecoratorPattern {
     public class Koffie : IDrank {
 
-        public readonly IDrank Drank;
-
         public string getOmschrijving() {
             return "Koffie";
         }
